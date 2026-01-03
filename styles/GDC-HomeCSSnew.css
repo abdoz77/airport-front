@@ -1,0 +1,377 @@
+body{
+	background: url(../Images/s9nIMMH-airplane-wall-paper.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#logo{
+	width: 40px;
+	height:40px;
+	display: inline;
+	margin-bottom: 10px;
+	vertical-align: top;
+}
+
+.navbar-brand{
+	font-family: Paytone One;
+
+}
+
+a{
+    color:white;
+}
+
+.tabshead{
+	font-weight: bold;
+	font-size: 1.5em;
+	color: white;
+}
+
+.tab-content {
+	color: white;
+}
+
+#second{
+	margin-top: 11%;
+    border: 1px solid;
+    box-shadow: 5px 5px 5px 3px #131313;
+    background-color: rgba(90,0,0,0.3);
+}
+
+.drop{
+	color: black;
+	width: 30%;
+	height: 40px;
+	font-size: 1.3em;
+	margin-bottom: 20px;
+	margin-right: 1.2%;
+	margin-left: 1.2%;
+	    border-radius: 5px;
+    background: antiquewhite;
+    outline: none;
+    border: none;
+}
+
+.drop2{
+	color: black;
+	width: 45%;
+	height: 40px;
+	font-size: 1.3em;
+	margin-bottom: 20px;
+	margin-left: 3.3%;
+	    border-radius: 5px;
+    background: antiquewhite;
+    outline: none;
+    border: none;
+}
+
+.drp{
+	margin-left: 44%;
+}
+
+.drop21{
+	color: black;
+	width: 40.5%;
+	height: 40px;
+	font-size: 1.3em;
+	margin-bottom: 20px;
+	margin-right: 3.3%;
+		    border-radius: 5px;
+    background: antiquewhite;
+    outline: none;
+    border: none;
+}
+
+.lab{
+	padding-left: 10px;
+	font-size: 1.5em;
+}
+
+.lab2{
+	padding-left: 3.3%;
+	font-size: 1.5em;
+}
+
+.container{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+	padding: 8px 40px;
+}
+
+#content{
+	text-align: center;
+	padding-top: 10%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+h1{
+	font-size: 4em;
+	font-family: Pacifico;
+	word-spacing: 15px;
+	color: white;
+}
+
+#usernameSignUp{
+	margin-left: 9.9%;
+}
+
+#email{
+	margin-left: 12.1%;
+}
+
+#passSignUp{
+	margin-left: 10.1%;
+}
+
+#messagecheck1, #messagecheck2{
+	color: red;
+}
+
+.messageCheck{
+	color: red;
+}
+
+#flightsButton{
+	background-color: rgba(150,0,0,0.7);
+	padding: 9.8px;
+	border: none;
+    width: 170px;
+	margin-left: 400px;
+    margin-top: 30px;
+}
+
+#tickButton{
+	background-color: rgba(150,0,0,0.7);
+	padding: 9.8px;
+	border: none;
+    width: 170px;
+    margin-bottom: 5px;
+    margin-left: 42.5%;
+}
+
+#fsButton{
+	background-color: rgba(150,0,0,0.7);
+	padding: 9.8px;
+	border: none;
+    width: 170px;
+}
+
+
+/* icons */
+#plane{
+	font-size: 22px;
+	margin-right: 8px;
+}
+
+
+#departure{
+	margin-right: 6px;
+}
+
+#arrival{
+	margin-right: 6px;
+}
+#door{
+	margin-right: 6px;
+}
+#terminal{
+	margin-right: 6px;
+}
+
+
+/* ------------------------------------------------------- */
+
+/* ===== Glass Background ===== */
+.glass-bg {
+  margin-top: 50px;
+  padding: 30px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+
+/* ===== Titles ===== */
+.section-title {
+  color: #fff;
+  font-weight: bold;
+}
+
+.section-subtitle {
+  color: #f2f2f2;
+  margin-bottom: 25px;
+}
+
+/* ===== Flight Sub Tabs ===== */
+.flight-tabs > li > a {
+  border-radius: 30px;
+  background: rgba(255,255,255,0.25);
+  color: #fff;
+  margin-right: 10px;
+}
+
+.flight-tabs > li.active > a {
+  background: linear-gradient(45deg, #ff512f, #f09819);
+  color: #fff;
+}
+
+/* ===== Flight Card ===== */
+.flight-card {
+  background: coral;
+  border-radius: 18px;
+  padding: 20px;
+  margin-top: 25px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+/* ===== Flight Head ===== */
+.flight-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.badge.local {
+  background: #3498db;
+}
+
+.badge.international {
+  background: #9b59b6;
+}
+
+.badge.ontime {
+  background: #2ecc71;
+}
+
+/* ===== Route ===== */
+.flight-route {
+  font-size: 22px;
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+/* ===== Info ===== */
+.flight-info span {
+  display: inline-block;
+  margin-right: 15px;
+  font-size: 22px;
+}
+
+/* ===== Footer ===== */
+.flight-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.btn-book {
+  background: linear-gradient(45deg, #ff512f, #f09819);
+  color: #fff;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.btn-book:hover {
+  opacity: 0.9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.bookings-table {
+  width: 95%;
+  border-collapse: collapse;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  margin-top: 20px;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  margin: 30px;
+}
+
+/* Header */
+.bookings-table thead {
+  background: linear-gradient(90deg, #ff7a18, #ffb347);
+  color: #fff;
+}
+
+.bookings-table th {
+  padding: 14px;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Body */
+.bookings-table td {
+  padding: 12px;
+  text-align: center;
+  color: #444;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+/* Hover effect */
+.bookings-table tbody tr:hover {
+  background: #fff4e6;
+  transition: background 0.3s ease;
+}
+
+/* Status badges */
+.status {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.status.confirmed {
+  background: linear-gradient(135deg, #56ab2f, #a8e063);
+  color: #fff;
+}
+
+.status.pending {
+  background: linear-gradient(135deg, #f7971e, #ffd200);
+  color: #7a4b00;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .bookings-table th,
+  .bookings-table td {
+    font-size: 13px;
+    padding: 10px;
+  }
+}
+
+
+
+
+
+
+
+
