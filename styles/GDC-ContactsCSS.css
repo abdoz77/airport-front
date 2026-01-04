@@ -1,7 +1,8 @@
 body{
-	background: url(../Images/marko-pekic-145777-unsplash.jpg);
+	background: url(../Images/contacts.jpg);
 	background-size: 100% 450px;
 	background-repeat: no-repeat;
+	padding-top: 70px;
 }
 
 #first{
@@ -49,20 +50,22 @@ hr{
 }
 
 #logo{
-	width: 40px;
-	height:40px;
-	display: inline;
-	margin-bottom: 10px;
-	vertical-align: top;
+    width: 50px;
+    height: 30px;
+    display: inline;
+    margin-bottom: 10px;
+    vertical-align: top;
+    margin-right: 10px;
 }
 
 h1{
 	margin-top: 5%;
-	margin-bottom: 5%;
 	margin-left: 20%;
 	font-family: Kaushan Script;
 	font-size: 75px;
 	color: white;
+	text-align: center;
+  margin-bottom: 40px;
 }
 
 #username{
@@ -76,3 +79,51 @@ h1{
 #pass{
 	margin-left: 10.1%;
 }
+
+
+
+
+
+.contact-page {
+  margin-bottom: 50px;
+}
+
+#first, #second {
+  padding: 20px;
+}
+
+/* Mobile tweaks */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 28px;
+  }
+
+
+#first{
+	font-size: 16px;
+}
+
+
+
+
+  #first, #second {
+    padding: 15px;
+	margin-top: 350px;
+	margin-left: -5px;
+  }
+
+  .navbar-brand {
+    font-size: 16px;
+  }
+
+  #logo {
+    width: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 24px;
+  }
+}
+

@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>GDC Airways</title>
+	<title>Damascus International Airport</title>
 	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -18,7 +19,7 @@
 	<nav class="navbar navbar-inverse">
 		<div class="container">
 			<div class="navbar-header">
-				<a href="#" class="navbar-brand"><img src="../Images/4b5d99c4-2f06-45be-88b2-5e4bb39f9885.png" id="logo"> GDC AIRWAYS</a>
+				<a href="#" class="navbar-brand"><img src="../Images/syriaflag.jpg" id="logo"> Cham Wings </a>
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 	        		<span class="sr-only">Toggle navigation</span>
 	        		<span class="icon-bar"></span>
@@ -26,7 +27,7 @@
 	        		<span class="icon-bar"></span>
 	      </button>
 			</div>
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"">
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
 					<li class="active"><a href="#"><strong>Home</strong></a></li>
 					<li><a href="GDC-About.php"><strong>About</strong></a></li>
@@ -339,7 +340,8 @@
  
 
   
-  <script type="text/javascript" src="../GDC-HomeJSnew.js"></script>
+  <script type="text/javascript" src="../GDC-HomeJSnew.js">
+  </script>
 </body>
 </html>
 

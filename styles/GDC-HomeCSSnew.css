@@ -1,16 +1,31 @@
-body{
-	background: url(../Images/s9nIMMH-airplane-wall-paper.jpg);
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: Arial, sans-serif;
+  background: url(../Images/s9nIMMH-airplane-wall-paper.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
 #logo{
-	width: 40px;
-	height:40px;
-	display: inline;
-	margin-bottom: 10px;
-	vertical-align: top;
+    width: 50px;
+    height: 30px;
+    display: inline;
+    margin-bottom: 10px;
+    vertical-align: top;
+    margin-right: 10px;
 }
 
 .navbar-brand{
@@ -38,6 +53,11 @@ a{
     box-shadow: 5px 5px 5px 3px #131313;
     background-color: rgba(90,0,0,0.3);
 }
+
+.navbar ul {
+  display: flex;
+}
+
 
 .drop{
 	color: black;
@@ -94,13 +114,13 @@ a{
 }
 
 .container{
-	padding-left: 0px;
-	padding-right: 0px;
+  width: 100%;
 }
 
 .btn-group-lg>.btn, .btn-lg {
 	padding: 8px 40px;
 }
+
 
 #content{
 	text-align: center;
@@ -360,6 +380,172 @@ h1{
 }
 
 /* Responsive */
+
+/* ===============================
+   MOBILE RESPONSIVE FIXES
+   =============================== */
+@media (max-width: 768px) {
+
+  /* ---------- NAVBAR ---------- */
+  .navbar-brand {
+    font-size: 16px;
+  }
+
+  #logo {
+    width: 30px;
+    height: auto;
+  }
+
+  /* ---------- MAIN HEADING ---------- */
+  #content h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  /* ---------- TABS ---------- */
+  .nav-tabs > li {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .tabshead {
+    display: block;
+  }
+
+
+
+.flight-tabs > li.active > a {
+    margin-bottom: 10px;
+  }
+
+
+  .flight-tabs > li > a{
+    margin-bottom: 10px;
+  }
+
+
+.nav>li{
+  padding: 30px;
+}
+
+
+  /* ---------- FORMS (FLIGHTS SEARCH) ---------- */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .drop,
+  .drop2,
+  .drop21,
+  input[type="date"],
+  input[type="number"],
+  input[type="text"],
+  select {
+    width: 100%;
+  }
+
+  .fa-exchange-alt {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  #flightsButton,
+  #fsButton {
+           width: 100px;
+        padding: 12px;
+        font-size: 16px;
+        position: relative;
+        left: -240px;
+  }
+
+  /* ---------- AVAILABLE FLIGHTS ---------- */
+  .flight-tabs li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .flight-card {
+    padding: 15px;
+  }
+
+  .flight-head {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  .flight-info {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 14px;
+  }
+
+  .flight-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .btn-book {
+    width: 100%;
+    padding: 10px;
+  }
+
+  /* ---------- BOOKINGS TABLE ---------- */
+  .bookings-table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .bookings-table th,
+  .bookings-table td {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  /* ---------- GENERAL ---------- */
+  h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 900px) {
   .bookings-table th,
   .bookings-table td {

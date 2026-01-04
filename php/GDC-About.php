@@ -3,6 +3,7 @@
 <head>
 	<title>GDC Airways - About</title>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -17,7 +18,7 @@
 	<nav class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container">
 			<div class="navbar-header">
-				<a href="index.php" class="navbar-brand"><img src="../Images/4b5d99c4-2f06-45be-88b2-5e4bb39f9885.png" id="logo"> GDC AIRWAYS</a>
+				<a href="index.php" class="navbar-brand"><img src="../Images/syriaflag.jpg" id="logo"> Cham Wings</a>
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 	        		<span class="sr-only">Toggle navigation</span>
 	        		<span class="icon-bar"></span>
@@ -25,7 +26,7 @@
 	        		<span class="icon-bar"></span>
 	      </button>
 			</div>
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"">
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
 					<li><a href="index.php"><strong>Home</strong></a></li>
 					<li class="active"><a href="#"><strong>About</strong></a></li>
@@ -43,27 +44,28 @@
 
   <h1>About</h1>
   <div class="container" id="cell">
-  	<p>Welcome aboard GDC Airways, India's premier Domestic airline which provides you with one of the finest experiences across the skies. Our high standards of service and reliability, efficient operations and focus on innovation has enabled us become one of India's favourite domestic airline.</p>
-  	<p>At GDC Airways, we take a holistic approach to corporate responsibility alongside our efforts to be India's best airline.  </p>
+  <p>Welcome to Syrian Airports, your gateway to a nation of ancient civilization and rich cultural heritage at the heart of the Middle East. Our airports are committed to providing safe, efficient, and welcoming travel experiences for passengers, while supporting connectivity across Syria and beyond.</p>
+  <p>At Syrian Airports, we uphold high standards of service, operational reliability, and continuous improvement. Through efficient airport operations and a focus on modernization, we strive to serve travelers, airlines, and communities with excellence.</p>
   <br>
-  <p>All of our efforts are focused around adding value: to our people, our communities and our Country. Our agenda is coordinated at the GDC Aviation Group level, to ensure that we have a cohesive programme of initiatives that covers all aspects of our business and operations.</p>
+  <p>We take a holistic approach to responsibility alongside our mission to develop and manage airports that meet international standards. All our efforts are focused on creating value:</p>
+  <p>For our passengers, by ensuring safety, comfort, and accessibility</p>
+  <p>For our country, by strengthening national connectivity and infrastructure</p>
+  <p>For our communities, by supporting economic and social development</p>
+  <p>Our initiatives are coordinated at a national level to ensure a unified and effective approach across all airport operations and services.</p>
   <br>
-  <p>All initiatives are conducted within GDC’s ‘Together’ framework.</p>
-  <br>
-  <p>Growing together<br>
-  Support for the India Make, in India vision.</p>
+  <p>All initiatives are guided by our “Together” framework, reflecting cooperation, responsibility, and shared progress.</p>  <br>
+  <p><strong>Growing together</strong><br>
+   Supporting national development, connectivity, and sustainable infrastructure.</p>
   <br>
   <p>Greener together<br>
-  Commitment to minimise our environmental impact.</p>
-  <br>
+  <p>A commitment to reducing environmental impact and promoting responsible airport operations.</p>  <br>
   <p>Working together<br>
-  The development and well-being of our diverse employees.</p>
-  <br>
+  <p>Fostering the development, safety, and well-being of our diverse workforce.</p>  <br>
   <p>Giving together<br>
-  Contributions to charities and humanitarian relief.</p>
+  Contributing to community support initiatives and humanitarian efforts where possible.</p>
   <br>
   <p>Our Responsibility<br>
-  More details about the ‘Together’ framework and initiatives are available in regular reports, published since 2010.</p>
+  Syrian Airports remain committed to transparency, continuous improvement, and long-term responsibility. Further details on our initiatives and progress are shared through regular reports and official communications.</p>
   </div>
 </body>
 </html>
